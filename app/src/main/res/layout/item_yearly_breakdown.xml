@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/breakdownYearTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="11sp"
+        tools:ignore="HardcodedText"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/breakdownInvestedTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="11sp"
+        tools:text="₹60,000" />
+
+    <TextView
+        android:id="@+id/breakdownReturnsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="11sp"
+        tools:text="₹4,830" />
+
+    <TextView
+        android:id="@+id/breakdownTotalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        tools:text="₹64,830" />
+
+</LinearLayout>

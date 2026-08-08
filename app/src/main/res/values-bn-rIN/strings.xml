@@ -1,0 +1,45 @@
+<resources>
+    <string name='app_name'>SIP ক্যালকুলেটর</string>
+    <string name='monthly_investment_amount_in_rs'>মাসিক বিনিয়োগের পরিমাণ (রুপিতে)</string>
+    <string name='expected_rate_of_return_in'>প্রত্যাশিত রিটার্নের হার (%-এ)</string>
+    <string name='investment_time_period_in_years'>বিনিয়োগের সময়কাল (বছরে)</string>
+    <string name='calculate'>গণনা করুন</string>
+    <string name='invested_amount'>বিনিয়োগ করা পরিমাণ</string>
+    <string name='estimated_returns'>আনুমানিক রিটার্ন</string>
+    <string name='total_amount'>মোট পরিমাণ</string>
+    <string name="language">হিন্দি</string>
+    <string name="calculator">ক্যালকুলেটর</string>
+    <string name="sip">SIP</string>
+    <string name="lumpsum">লম্পসাম</string>
+    <string name="ppf">পিপিএফ</string>
+    <string name="annual_Investment">বার্ষিক বিনিয়োগ (রুপি):</string>
+    <string name="tenure_years"> মেয়াদ (বছর):</string>
+    <string name="interest_Rate">সুদের হার (%):</string>
+    <string name="invested_Amount">বিনিয়োগকৃত পরিমাণ:</string>
+    <string name="maturity_Amount"> পরিপক্কতার পরিমাণ:</string>
+    <string name="total_Interest">মোট আগ্রহ:</string>
+    <string name="rate_Of_Interest">সুদের হার (%)</string>
+    <string name="lumpsum_Calculator">লাম্পসাম ক্যালকুলেটর</string>
+    <string name="principal_Amount">প্রধান পরিমাণ</string>
+    <string name="ppf_Calculator">পিপিএফ ক্যালকুলেটর</string>
+
+    <string name="yearly_breakdown">বছরভিত্তিক বিবরণ</string>
+    <string name="table_year">বছর</string>
+    <string name="table_invested">বিনিয়োগ</string>
+    <string name="table_returns">রিটার্ন</string>
+    <string name="table_total">মোট</string>
+    <string name="breakdown_detail_format">বছর %1$d • বিনিয়োগ %2$s • রিটার্ন %3$s • মোট %4$s</string>
+
+    <string name="save">সেভ করুন</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="history">ইতিহাস</string>
+    <string name="compare">তুলনা করুন</string>
+    <string name="scenario_saved">সেভ হয়েছে!</string>
+    <string name="delete">মুছুন</string>
+    <string name="no_saved_scenarios">এখনও কোনো সংরক্ষিত হিসাব নেই। যেকোনো ক্যালকুলেটরে সেভ চাপুন।</string>
+    <string name="select_two_to_compare">তুলনার জন্য ঠিক ২টি নির্বাচন করুন</string>
+    <string name="compare_selected_format">নির্বাচিত তুলনা করুন (%1$d/2)</string>
+    <string name="comparing_scenarios">২টি পরিস্থিতির তুলনা</string>
+    <string name="scenario_summary_format">বিনিয়োগ %1$s • মোট %2$s</string>
+    <string name="scenario_results_format">বিনিয়োগ %1$s • রিটার্ন %2$s • মোট %3$s</string>
+</resources>

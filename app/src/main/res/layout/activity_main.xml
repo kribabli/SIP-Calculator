@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/languageRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_2sdp">
+
+        <Button
+            android:id="@+id/englishButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_29sdp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_bg"
+            android:backgroundTint="@color/investedAmt"
+            android:text="English"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/hindiButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_29sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_bg"
+            android:backgroundTint="@color/investedAmt"
+            android:text="हिंदी"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/bengaliButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_29sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_bg"
+            android:backgroundTint="@color/investedAmt"
+            android:text="বাংলা"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/marathiButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_29sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_bg"
+            android:backgroundTint="@color/investedAmt"
+            android:text="मराठी"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/featureRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/languageRow"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_2sdp">
+
+            <Button
+                android:id="@+id/sipBtn"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:background="@drawable/rect_bg"
+                android:backgroundTint="@color/investedAmt"
+                android:text="SIP"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/calculatorBtn"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/rect_bg"
+                android:backgroundTint="@color/investedAmt"
+                android:text="Calculator"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/lumpsumBtn"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/rect_bg"
+                android:backgroundTint="@color/investedAmt"
+                android:text="Lumpsum"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/ppfBtn"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/rect_bg"
+                android:backgroundTint="@color/investedAmt"
+                android:text="PPF"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/historyBtn"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/rect_bg"
+                android:backgroundTint="@color/investedAmt"
+                android:text="@string/history"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/featureRow"
+        android:layout_marginTop="@dimen/_1sdp" />
+
+</RelativeLayout>

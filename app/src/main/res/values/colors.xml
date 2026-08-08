@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#336699</color>
+    <color name="colorPrimaryDark">#336699</color>
+    <color name="colorAccent">#336699</color>
+    <color name="colorTextDark">#333333</color>
+    <color name="colorTextBlue">#336699</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlueBorder_">#5ECCE6</color>
+    <color name="colorBlueBorder_1">#05c9f7</color>
+    <color name="colorBlueBorder_2">#24cbf2</color>
+    <color name="colorRectInner">#F2F7FA</color>
+    <color name="gray">#5E5F5F</color>
+    <color name="investedAmt">#b3daff</color>
+    <color name="estimatedReturns">#1a90ff</color>
+    <color name="estimatedReturns1">#0069cc</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="dark_green">#204D00</color>
+    <color name="green">#63993D</color>
+    <color name="light_green">#AFDC8F</color>
+    <color name="light_yellow">#FFA726</color>
+    <color name="deepSkyBlue">#00394d</color>
+    <color name="deepSkyBlue_1">#0086b3</color>
+</resources>

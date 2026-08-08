@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SIP Calculator</string>
+    <string name="monthly_investment_amount_in_rs">Monthly Investment Amount (in Rs.)</string>
+    <string name="expected_rate_of_return_in">Expected Rate of Return (in %)</string>
+    <string name="investment_time_period_in_years">Investment Time Period (in Years)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="invested_amount">Invested Amount</string>
+    <string name="estimated_returns">Estimated Returns</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="language">English</string>
+    <string name="calculator">Calculator</string>
+    <string name="sip">SIP</string>
+    <string name="lumpsum">Lumpsum</string>
+    <string name="ppf">PPF</string>
+    <string name="annual_Investment">Annual Investment (Rs.):</string>
+    <string name="tenure_years">Tenure (Years):</string>
+    <string name="interest_Rate">Interest Rate (%):</string>
+    <string name="invested_Amount">Invested Amount:</string>
+    <string name="maturity_Amount">Maturity Amount:</string>
+    <string name="total_Interest">Total Interest:</string>
+    <string name="rate_Of_Interest">Rate of Interest (%)</string>
+    <string name="lumpsum_Calculator">Lumpsum Calculator</string>
+    <string name="principal_Amount">Principal Amount</string>
+    <string name="ppf_Calculator">PPF Calculator</string>
+
+    <string name="yearly_breakdown">Yearly Breakdown</string>
+    <string name="table_year">Year</string>
+    <string name="table_invested">Invested</string>
+    <string name="table_returns">Returns</string>
+    <string name="table_total">Total</string>
+    <string name="breakdown_detail_format">Year %1$d • Invested %2$s • Returns %3$s • Total %4$s</string>
+
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="history">History</string>
+    <string name="compare">Compare</string>
+    <string name="scenario_saved">Saved!</string>
+    <string name="delete">Delete</string>
+    <string name="no_saved_scenarios">No saved calculations yet. Tap Save on any calculator to add one.</string>
+    <string name="select_two_to_compare">Select exactly 2 scenarios to compare</string>
+    <string name="compare_selected_format">Compare Selected (%1$d/2)</string>
+    <string name="comparing_scenarios">Comparing 2 Scenarios</string>
+    <string name="scenario_summary_format">Invested %1$s • Total %2$s</string>
+    <string name="scenario_results_format">Invested %1$s • Returns %2$s • Total %3$s</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Fragments.CompareFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/compareTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/comparing_scenarios"
+            android:textColor="@color/colorTextBlue"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/compareDiffTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@color/colorRectInner"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Scenario B ends with ₹3,20,000 more than Scenario A" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/compareATypeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/estimatedReturns1"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    tools:text="SIP" />
+
+                <TextView
+                    android:id="@+id/compareALabelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="SIP - 27 Jul, 10:30 AM" />
+
+                <TextView
+                    android:id="@+id/compareAInputsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="@color/gray"
+                    android:textSize="11sp"
+                    tools:text="Monthly Investment: ₹5000" />
+
+                <TextView
+                    android:id="@+id/compareAResultsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp"
+                    tools:text="Invested ₹6,00,000 • Returns ₹6,53,013 • Total ₹12,53,013" />
+
+                <com.sipcaluculator.View.Widgets.GrowthChartView
+                    android:id="@+id/compareAChartView"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:investedLineColor="@color/investedAmt"
+                    app:totalLineColor="@color/estimatedReturns1" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/compareARecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/item_yearly_breakdown" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/compareBTypeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_green"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    tools:text="PPF" />
+
+                <TextView
+                    android:id="@+id/compareBLabelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="PPF - 27 Jul, 10:32 AM" />
+
+                <TextView
+                    android:id="@+id/compareBInputsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="@color/gray"
+                    android:textSize="11sp"
+                    tools:text="Annual Investment: ₹50000" />
+
+                <TextView
+                    android:id="@+id/compareBResultsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp"
+                    tools:text="Invested ₹9,00,000 • Returns ₹8,26,401 • Total ₹17,26,401" />
+
+                <com.sipcaluculator.View.Widgets.GrowthChartView
+                    android:id="@+id/compareBChartView"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:investedLineColor="@color/light_green"
+                    app:totalLineColor="@color/dark_green" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/compareBRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/item_yearly_breakdown" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
